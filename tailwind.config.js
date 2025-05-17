@@ -1,4 +1,5 @@
 
+
 export default {
 
   content: [
@@ -20,4 +21,3 @@ export default {
   },
   plugins: []
 }
-
