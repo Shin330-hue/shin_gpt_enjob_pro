@@ -1,3 +1,4 @@
+
 import './style.css'
 
 const buttons = document.querySelectorAll('[data-choice]')
@@ -34,3 +35,4 @@ buttons.forEach(btn => {
     play(parseInt(btn.dataset.choice))
   })
 })
+

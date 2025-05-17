@@ -1,9 +1,12 @@
+
 export default {
+
   content: [
     './index.html',
     './main.js'
   ],
   theme: {
+
     extend: {
       colors: {
         playfulBlue: '#60a5fa',
@@ -17,3 +20,4 @@ export default {
   },
   plugins: []
 }
+
