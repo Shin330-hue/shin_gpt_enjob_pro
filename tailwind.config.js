@@ -1,16 +1,23 @@
-module.exports = {
+
+
+export default {
+
   content: [
     './index.html',
-    './src/**/*.{js,ts,jsx,tsx}',
+    './main.js'
   ],
   theme: {
+
     extend: {
       colors: {
-        'play-blue': '#3b82f6',
-        'play-pink': '#ec4899',
-        'play-green': '#10b981',
-      },
-    },
+        playfulBlue: '#60a5fa',
+        playfulPink: '#fb7185',
+        playfulGreen: '#4ade80',
+        win: '#22c55e',
+        lose: '#ef4444',
+        draw: '#facc15'
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 }
